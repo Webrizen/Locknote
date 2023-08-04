@@ -28,3 +28,18 @@ form input, form textarea, form select{
     border-radius: 10px;
     border: 0.1px solid silver;
 }
+.ico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background: #1f1f1f;
+    color: #f1f1f1;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+.ico:hover{
+    background: rgba(0,0,0,0.3);
+}
