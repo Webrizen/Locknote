@@ -9,7 +9,7 @@ import { BsLink } from 'react-icons/bs';
 export default function Home() {
   const [selectedExpiry, setSelectedExpiry] = useState("immediately"); // Default expiry time: immediately
   const [noteText, setNoteText] = useState("");
-  const CurrentURL ="http://localhost:3000"
+  const CurrentURL ="https://locknotes.vercel.app/"
   const [noteId, setNoteId] = useState(null);
 
   const handleExpiryChange = (event) => {
