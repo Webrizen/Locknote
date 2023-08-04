@@ -122,7 +122,7 @@ export default function Home() {
                 Your Link Is Ready!
               </h2>
               <p className="leading-relaxed text-base mb-4">
-                Add Some Text here from your own ChatGPT!!!
+              Send notes that will self-destruct after being read.
               </p>
               <form style={{ flexDirection: 'row', alignItems: 'center' }}>
                 <input
